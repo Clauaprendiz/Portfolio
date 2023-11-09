@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Noto Sans", sans-serif;
+}
+
+:root {
+	/* font-size: 62.5%; */
+	--indigo: #a288e3ff;
+	--mint: #39d4a3ff;
+	--space-cadet: #3d3b54ff;
+	--white: #f7f6f6ff;
+	--black: #010100ff;
+	--gradient: linear-gradient(to right, var(--mint) 0%, var(--indigo) 100%);
+}
+
+body {
+	background: var(--gradient);
+}
+
+a {
+	text-decoration: none;
+}
+
+.page-header {
+	padding: 5px 32px 5px 32px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0px -9px 15px 0px gray;
+}
+
+.page-title {
+	text-align: center;
+	color: var(--white);
+
+	padding: 3px 8px;
+
+	border-radius: 30px;
+}
+.page-title h1 {
+	font-family: "Sacramento", cursive;
+	font-size: 42px;
+	font-weight: bolder;
+}
+.effect {
+	font-weight: bolder;
+	font-family: "Sacramento", cursive;
+	color: #4b0082;
+}
+
+.navigation .nav-list {
+	padding: 0 32px;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 80px;
+}
+
+.navigation .nav-list a {
+	font-size: 28px;
+	color: var(--white);
+}
+
+.navigation .nav-list a:hover {
+	color: #4b0082;
+	text-decoration-line: underline;
+	text-decoration-color: var(--space-cadet);
+}
+
+#home {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+	margin: 0 40px;
+}
