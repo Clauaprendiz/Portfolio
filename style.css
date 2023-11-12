@@ -60,20 +60,34 @@ a {
 }
 
 .navigation .nav-list a {
+	font-weight: 500;
 	font-size: 28px;
 	color: var(--white);
 }
 
 .navigation .nav-list a:hover {
-	color: #4b0082;
+	color: #6e08e2;
 	text-decoration-line: underline;
 	text-decoration-color: var(--space-cadet);
 }
 
 #home {
+	height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	flex-direction: row;
 	margin: 0 40px;
+}
+
+.main-content {
+	border: 1px solid red;
+}
+.main-content h2 {
+	font-size: 42px;
+}
+
+figure {
+	margin-left: -15px;
+	border: 1px solid red;
 }
